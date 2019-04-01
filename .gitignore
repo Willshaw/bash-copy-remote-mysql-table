@@ -1,0 +1,4 @@
+*.sql
+*.cfg
+!default.cfg
+
