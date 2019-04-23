@@ -10,15 +10,15 @@ I use it to grab a copy of another dev's table locally - if they've got some cha
 
 Pass the config file, database and table name.
 
-`./doit alfie.cfg my_database my_table`
+`./copy alfie.cfg my_database my_table`
 
 This will export the table from the database on the remote host and insert it locally.
 
 Setup multiple configs for your peers if you're working on multiple projects and need that data quickly.
 
 ```
-./doit alfie.cfg shopping products
-./doit pete.cfg vehicles emissions
+./copy alfie.cfg shopping products
+./copy pete.cfg vehicles emissions
 ```
 
 ## Config files
